@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    background-color: #ffffff;
+    padding: 1em;
+}
+button {
+    cursor: pointer;
+}
+header {
+    display: flex;
+    margin: 0 20px 20px 40px;
+}
+.logo > img {
+    height: 48px;
+    left: 0;
+}
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-b;
+}
+.nav > span {
+    margin: 30px;
+    color: #bcbbb9;
+}
+.nav > span:hover {
+    color: #0b0603;
+    text-decoration: underline #5243c0 solid 3px;
+}
+.button > button {
+    border: none;
+    background-color: #ffd8db;
+    color: #5243c0;
+    padding: 25px;
+    border-radius: 25px;
+}
+.button {
+    right: 0;
+}
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.heading_container > h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+aside {
+    height: auto;
+    width: auto;
+    right: 1;
+}
+.dot {
+    font-size: 30px;
+    color: #5243c0;
+}
+
+/* Buttons  */
+.account_button > button {
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #5243c0;
+    padding: 20px 30px 20px 30px;
+
+    border-radius: 25px;
+}
+.account_button {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.card {
+    display: flex;
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 15px;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 12px 2px rgba(230, 230, 230, 1);
+}
+
+.card-text {
+    white-space: nowrap;
+    font-weight: bold;
+    width: 40%;
+}
+
+.card-date {
+    color: #c3c3c3;
+}
+
+.card-checkbox,
+.card-user-image {
+    height: 40px;
+    width: 40px;
+}
+
+.strip {
+    height: 10px;
+    width: 2em;
+    border-radius: 100px;
+    margin-top: 1em;
+}
