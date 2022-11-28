@@ -32,10 +32,11 @@ header {
     text-decoration: underline #5243c0 solid 3px;
 }
 .button > button {
+    
     border: none;
     background-color: #ffd8db;
     color: #5243c0;
-    padding: 25px;
+    padding: 20px 30px 20px 30px;
     border-radius: 25px;
 }
 .button {
